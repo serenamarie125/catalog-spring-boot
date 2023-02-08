@@ -8,6 +8,16 @@
   <version>1.0-SNAPSHOT</version>
   <name>CoolStore Catalog Service</name>
   <description>CoolStore Catalog Service with Spring Boot</description>
+  <distributionManagement>
+    <repository>
+      <id>nexus-releases</id>
+      <url>${repository.releases}</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>${repository.snapshots}</url>
+    </snapshotRepository>
+  </distributionManagement>
   <properties>
     <spring-boot.version>2.1.6.SP3-redhat-00001</spring-boot.version>
     <spring-boot.maven.plugin.version>2.1.4.RELEASE-redhat-00001</spring-boot.maven.plugin.version>
@@ -97,6 +107,18 @@
        <groupId>org.eclipse.jkube</groupId>
        <artifactId>kubernetes-maven-plugin</artifactId>
        <version>1.1.1</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>default-deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
