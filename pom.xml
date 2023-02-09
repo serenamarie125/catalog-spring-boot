@@ -38,6 +38,7 @@
     <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
     <sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
     <sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
+    <sonar.organization>coolstore</sonar.organization>
 
     <!-- jacoco properties -->
     <quarkus.jacoco.excludes>**/com/redhat/demo/OpenShiftSettings.java</quarkus.jacoco.excludes>
