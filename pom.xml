@@ -29,7 +29,7 @@
     <sonar.issue.ignore.multicriteria>e1</sonar.issue.ignore.multicriteria>
     <sonar.issue.ignore.multicriteria.e1.resourceKey>**/*.java</sonar.issue.ignore.multicriteria.e1.resourceKey>
     <sonar.issue.ignore.multicriteria.e1.ruleKey>java:S3252</sonar.issue.ignore.multicriteria.e1.ruleKey>
-    <sonar.projectKey>product-catalog-server</sonar.projectKey>
+    <sonar.projectKey>catalog-spring-boot</sonar.projectKey>
     <sonar.coverage.exclusions>**/com/redhat/demo/OpenShiftSettings.java</sonar.coverage.exclusions>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
