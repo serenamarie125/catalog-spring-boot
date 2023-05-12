@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: info-sec
+  description: |
+    Infosec application
+  annotations:
+    github.com/project-slug: serenamarie125/catalog-spring-boot
+    backstage.io/kubernetes-id: catalog-spring-boot
+spec:
+  type: website
+  owner: IT
+  lifecycle: production
+  system: corporate
