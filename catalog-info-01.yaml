@@ -10,4 +10,4 @@ metadata:
 spec:
   type: website
   owner: finance
-  lifecycle: experimental
+  lifecycle: production
