@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payroll-application
+  description: |
+    Main payroll application 
+  annotations:
+    github.com/project-slug: serenamarie125/catalog-spring-boot
+    backstage.io/kubernetes-id: catalog-spring-boot
+spec:
+  type: website
+  owner: finance
+  lifecycle: experimental
